@@ -35,9 +35,9 @@ $(document).ready(function() {
   // Navbar transparent background effect
   $(window).on('scroll', function() {
     if ($('.navbar').offset().top > 100) {
-      $('.navbar').addClass('bg-dark navbar-shadow').removeClass('py-4');
+      $('.navbar').addClass('bg-dark navbar-shadow').removeClass('py-3');
     } else {
-      $('.navbar').removeClass('bg-dark navbar-shadow').addClass('py-4');
+      $('.navbar').removeClass('bg-dark navbar-shadow').addClass('py-3');
     }
   });
 
