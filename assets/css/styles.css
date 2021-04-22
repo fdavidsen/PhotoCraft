@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+section {
+  padding-top: 4.5rem;
+  padding-bottom: 3.5rem;
+}
+footer {
+  margin-top: 2.5rem;
+}
+
+.navbar {
+  background-color: transparent;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  transition: 0.5s;
+}
+.navbar-shadow {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.55) !important;
+  transition: 0.25s;
+}
+.navbar-brand:hover {
+  color: #fff !important;
+}
+.navbar-brand .fa-camera {
+  color: #e67e22;
+}
+.navbar-brand span {
+  color: #e67e22;
+  text-shadow: 0 0 4px #e67e22;
+}
+.nav-link {
+  text-transform: uppercase;
+}
+
+#portfolio .lightbox-img {
+  background-size: cover;
+  background-position: center;
+  transition: ease-in 0.25s;
+}
+#portfolio .lightbox-img:hover {
+  filter: brightness(60%);
+}
+
+#about img {
+  opacity: 0;
+  transition: 2s;
+}
+@media (max-width: 768px) {
+  #about img {
+    margin-bottom: 1.5rem !important;
+  }
+}
+#about .percentage {
+  color: #707070;
+}
+#about .percentage::before {
+  content: "-";
+  padding-right: 1rem;
+}
+#about .progress-bar {
+  width: 0;
+  background-color: #e67e22;
+  border-radius: 0.25rem;
+  transition: 3s;
+}
+
+#contact .card-link {
+  color: #707070;
+  font-size: 1.25rem;
+  transition: 0.25s;
+}
+#contact .card-link:hover {
+  color: #e67e22;
+}
+
+.underline {
+  position: relative;
+  text-align: center;
+}
+.underline:after {
+  content: "";
+  background-color: #e67e22;
+  display: block;
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
