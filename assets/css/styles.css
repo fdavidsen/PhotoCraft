@@ -1,12 +1,19 @@
 body {
+  position: relative;
   font-family: 'Roboto Slab', serif;
 }
-section {
+div.section {
   padding-top: 4.5rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: 3rem;
+}
+@media (min-width: 768px) {
+  div.section#about {
+    padding-top: 1.5rem;
+  }
 }
 footer {
-  margin-top: 2.5rem;
+  background-color: #2f2d2d;
+  margin-top: 4rem;
 }
 
 .navbar {
@@ -74,8 +81,17 @@ footer {
   font-size: 1.25rem;
   transition: 0.25s;
 }
-#contact .card-link:hover {
+#contact .card-link:hover,
+#contact .list-group i {
   color: #e67e22;
+}
+#contact .list-group .fa-envelope,
+#contact .list-group .fa-phone {
+  margin-right: 0.75rem;
+}
+
+a.topbox_nav {
+  outline: none;
 }
 
 .underline {

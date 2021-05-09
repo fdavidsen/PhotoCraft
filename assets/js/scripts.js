@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   function setPortfolioImgHeight() {
     const portfolioImg = $('.lightbox-img');
     portfolioImg.height(portfolioImg.width());
@@ -55,7 +55,4 @@ $(document).ready(function() {
       (bottomOfWindow > bottomOfObject)  &&  $(this).css('width', percentage + '%');
     });
   });
-
-  // Automatically update copyright year
-  document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 });
