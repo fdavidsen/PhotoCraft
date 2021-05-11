@@ -3,17 +3,23 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 div.section {
-  padding-top: 4.5rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
 }
 @media (min-width: 768px) {
   div.section#about {
-    padding-top: 1.5rem;
+    padding-top: 2.5rem;
   }
 }
 footer {
-  background-color: #2f2d2d;
-  margin-top: 4rem;
+  margin-top: 8rem;
+}
+footer a {
+  color: #e67e22;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #e67e22;
+  text-shadow: 0 0 1px #e67e22;
 }
 
 .navbar {
