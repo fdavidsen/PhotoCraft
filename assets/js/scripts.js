@@ -5,6 +5,8 @@ $(function() {
     $('.last-img').height(portfolioImg.width());
   }
 
+  const portfolioColumns = ($(window).width() >= 768) ? 'col-3' : 'col-4';
+
   $.ajax({
     url: 'assets/json/portfolio.json',
     method: 'GET',
@@ -13,7 +15,7 @@ $(function() {
       let content = '';
       result.forEach(function(item) {
         content += `
-          <div class="col-4 p-0">
+          <div class="${ portfolioColumns } p-0">
             <a class="lightbox" data-lightbox-gallery="portfolio" href="assets/img/portfolio/${ item.source }" title="${ item.caption }">
               <div class="lightbox-img w-100" style="background-image: url(assets/img/portfolio/${ item.source })"></div>
             </a>
