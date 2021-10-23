@@ -1,0 +1,175 @@
+main {
+  padding-top: 3.5rem;
+}
+
+.navbar-toggler {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar .title {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+.navbar .btn {
+  font-size: 0.7rem;
+}
+
+.offcanvas {
+  width: 250px;
+  color: #a0a0a0;
+}
+.offcanvas .offcanvas-header .fa-tools {
+  transform: rotate(-5deg);
+}
+.offcanvas .offcanvas-header button {
+  color: #a0a0a0;
+  margin: -1rem -0.5rem;
+}
+.offcanvas .divider {
+  width: calc(100% - 2rem);
+  height: 1px;
+  background-color: #6f6f6f;
+  margin-bottom: 1rem;
+}
+.offcanvas .section-title {
+  color: #6f6f6f;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 0.75rem;
+}
+.offcanvas .section-item {
+  display: block;
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+.offcanvas .section-item:hover {
+  color: #f2f1f1;
+}
+.offcanvas .section-item i {
+  color: #656565;
+}
+.offcanvas .section-item.active {
+  color: #f2f1f1;
+  font-weight: 500;
+}
+.offcanvas .section-item.active i {
+  color: #f2f1f1;
+}
+
+table img {
+  height: 100px;
+}
+table button {
+  margin: 0.25rem 0.05rem;
+}
+
+#dashboard .card {
+  border-radius: 0.35rem;
+  border-left: 0.25rem solid;
+}
+#dashboard .card h6 {
+  font-size: 0.7rem;
+}
+#dashboard .card h5 {
+  color: #505050;
+}
+#dashboard .card i {
+  color: #dddfeb;
+  font-size: 2rem;
+}
+#dashboard .card .fa-envelope-open {
+  padding-right: 4px;
+}
+#dashboard .card .fa-user-tie,
+#dashboard .card .fa-user-secret {
+  padding-right: 6px;
+}
+
+#dashboard .card.border-start-primary {
+  border-left-color: #0d6efd;
+}
+#dashboard .card.border-start-secondary {
+  border-left-color: #6c757d;
+}
+#dashboard .card.border-start-success {
+  border-left-color: #198754;
+}
+#dashboard .card.border-start-warning {
+  border-left-color: #ffc107;
+}
+
+#message .d-flex {
+  margin-top: -0.5rem;
+  margin-bottom: 2.25rem;
+}
+#message .badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+#message .fa-bell {
+  color: #e67e22;
+}
+#message .card-header .user-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#message .card-header .user-icon i {
+  color: #7b7b7b;
+  font-size: 1.5rem;
+  margin-top: 0.4rem;
+}
+#message .card-header .col {
+  word-break: break-all;
+}
+@media (max-width: 768px) {
+  #message .card-text {
+    font-size: 0.965rem;
+  }
+}
+#message .delete {
+  color: #7b7b7b;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
+#message .delete:hover {
+  color: #505050;
+}
+
+#photo-list textarea {
+  height: 134px;
+}
+
+#about-me .admin-photo,
+.edit.modal img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #about-me .admin-photo,
+  .edit.modal img {
+    width: 50%;
+  }
+}
+#about-me .percentage {
+  color: #707070;
+}
+#about-me .percentage::before {
+  content: "-";
+  padding-right: 1rem;
+}
+#about-me .percentage::after {
+  content: "%";
+}
+#about-me .progress-bar {
+  width: 0;
+  border-radius: 0.25rem;
+  transition: 3s;
+}
+
+#my-contact i {
+  color: #e67e22;
+}
